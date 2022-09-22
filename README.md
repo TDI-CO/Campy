@@ -7,7 +7,7 @@
 
 _Campy es un script basico, con el cual podras optimizar la creacion de un paquete venom para hacer pruebas  con metasploit y poder acceder a la camara y microfono de un dispositivo Windows._
 
-Mira **Deployment** para conocer como desplegar el proyecto.
+
 
 
 ### Pre-requisitos 📋
