@@ -31,11 +31,7 @@ _Ejecuta, en caso de no tenerlo instalado:_
 sudo apt-get install git
 ```
 
-_3. Instalamos los requerimientos_
 
-```
-sudo pip intall -r requirements.txt
-```
 
 ### Instalación 🔧
 
@@ -46,6 +42,11 @@ git clone https://github.com/TDI-CO/Campy.git
 ```
 ```
 cd Campy
+```
+_Instalamos los requerimientos_
+
+```
+sudo pip install -r requirements.txt
 ```
 ```
 sudo python3 pack_campy.py
