@@ -15,7 +15,7 @@ Mira **Deployment** para conocer como desplegar el proyecto.
 _1. Verifica que tengas pip instalado:_
 
 ```
-pip –version
+pip -–version
 ```
 _Ejecuta, en caso de no tenerlo instalado:_
 ```
@@ -24,7 +24,7 @@ sudo apt-get install python-pip
 _2. Verifica que tengas git instalado:_
 
 ```
-git –version
+git -–version
 ```
 _Ejecuta, en caso de no tenerlo instalado:_
 ```
