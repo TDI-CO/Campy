@@ -30,6 +30,13 @@ _Ejecuta, en caso de no tenerlo instalado:_
 ```
 sudo apt-get install git
 ```
+
+_3. Instalamos los requerimientos_
+
+```
+sudo pip intall -r requirements.txt
+```
+
 ### Instalación 🔧
 
 _Ahora si clonas el repositorio o lo descargas. Como prefieras_
