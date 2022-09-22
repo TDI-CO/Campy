@@ -12,7 +12,12 @@ Mira **Deployment** para conocer como desplegar el proyecto.
 
 ### Pre-requisitos 📋
 
-_1. Verifica que tengas pip instalado:_
+_1. Actualizar paquetes_
+```
+sudo apt update && sudo apt upgrade
+```
+
+_2. Verifica que tengas pip instalado:_
 
 ```
 pip --version
@@ -21,7 +26,7 @@ _Ejecuta, en caso de no tenerlo instalado:_
 ```
 sudo apt-get install python-pip
 ```
-_2. Verifica que tengas git instalado:_
+_3. Verifica que tengas git instalado:_
 
 ```
 git --version
