@@ -51,7 +51,7 @@ cd Campy
 _Instalamos los requerimientos_
 
 ```
-sudo pip install -r requirements.txt
+sudo pip install pyautogui
 ```
 ```
 sudo python3 pack_campy.py
