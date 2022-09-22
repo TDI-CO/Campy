@@ -41,7 +41,7 @@ git clone https://github.com/TDI-CO/Campy.git
 cd Campy
 ```
 ```
-python3 pack_campy.py
+sudo python3 pack_campy.py
 ```
 
 ## Ejecutando las pruebas ⚙️
